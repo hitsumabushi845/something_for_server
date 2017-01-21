@@ -10,5 +10,5 @@ for file in `\find . -maxdepth 1 -name '*.log'`; do
         infected_files=$(( infected_files + 1 ))
     fi
 done
-echo -e "\nAll files were inspected."
+echo -e "\n Done inspection of all files."
 echo "Number of detected log files / Number of All log files = ${infected_files} /" $files
